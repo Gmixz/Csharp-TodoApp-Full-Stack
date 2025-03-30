@@ -6,6 +6,7 @@ namespace TodoApp.Models
      {
         public required int Id { get; set; }
         public required string Name { get; set; }
+        public string? Bacalao {get; set;}
 
     }
 }
